@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Muffin City</h1>
+        <h3> Where muffins come to retire</h3>
+        <img src="http://www.pcbakery.com/files/products/Bulk%20Blueberry%20Muffin%20for%20Site.jpg" alt="muffin-picture" >
+    </header>
+    <form id="create-muffin-form">
+        <label for="muffin-name"> Muffin Name: </label>
+        <input type="text" name="muffin-name" id="">
+        <label for="muffin-name"> Muffin Description: </label>
+        <input type="text" name="description" id="">
+        <input type="submit" value="Submit Your Muffin">
+    </form>
+    <div id="muffin-container-wrapper">
+        <h3>Here are your muffins:</h3>
+        <div id="muffin-container" class="container" >
+        </div>
+    </div>
+</body>
+</html>

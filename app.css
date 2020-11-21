@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 20px solid black;
+    margin: 0px;
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+.muffin-card {
+    background-color: black;
+    color: white;
+    border: solid blue 6px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#title {
+    font-size: 92px;
+    margin-bottom: 5px;
+}
+
+#muffin-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#muffin-container-wrapper {
+    padding: 0px 100px 0px 100px;
+}

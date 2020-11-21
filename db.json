@@ -1,0 +1,34 @@
+{
+  "muffins": [
+    {
+      "id": 1,
+      "name": "blueberry",
+      "description": "This is a kickass muffin"
+    },
+    {
+      "id": 2,
+      "name": "chocolate chip",
+      "description": "This is a kickass chocolatey muffin"
+    },
+    {
+      "id": 3,
+      "name": "pistachio",
+      "description": "This is a kickass muffin and its green"
+    },
+    {
+      "id": 4,
+      "name": "bannana nut",
+      "description": "This is a significantly less kickass muffin"
+    },
+    {
+      "name": "test muffin",
+      "description": "pretty good, for just being a test muffin",
+      "id": 5
+    },
+    {
+      "name": "stephen",
+      "description": "sucks",
+      "id": 6
+    }
+  ]
+}
